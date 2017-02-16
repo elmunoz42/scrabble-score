@@ -12,15 +12,16 @@
 
 
             <form action="/" method="post">
-                <label for="player-choice"></label>
-                <select class="form-group" name="player-choice">
-                    <option value="single">Single Player</option>
-                </select>
+                <label for="userInput"></label>
+                <input type="text" name="userInput">
 
-                <button type="submit" class="btn btn-warning">Play!</button>
+                <button type="submit" class="btn btn-success">Submit!</button>
             </form>
-            <h2>How to play</h2>
-            <img id="guide" src="/img/guide.jpg" alt="Picture of Extreme Rock Paper Scissors Guide">
+
+            {% if result is not empty %}
+                <h4>Your Score is: {{result}}<h4>
+            {% endif %}
+
         </div>
     </body>
 </html>
