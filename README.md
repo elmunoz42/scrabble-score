@@ -1,8 +1,8 @@
 # Scrabble Score Counter
 
-#### _A webpage that allows two players to play Rock, Paper, Scissors, 15 February 2017_
+#### _A webpage that returns the score for a Scrabble word, 16 February 2017_
 
-#### By _**Erica Wright & Matt Kelley**_
+#### By _**Carlos Munoz Kampff & Matt Kelley**_
 
 ## Description
 
